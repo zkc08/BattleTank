@@ -1,9 +1,9 @@
 // copyright zkc08 2020
-
-#include "BattleTank.h"
+// #include "BattleTanks.h"
+#include "Tanks.h"
 #include "TankPlayerController.h"
 
-ATank*  APlayerController::GetControlledTank() const
+ATanks*  APlayerController::GetControlledTank() const
 {
-    return cast<ATank>(GetPawn());
+    return Cast<ATanks>(GetPawn());
 }
