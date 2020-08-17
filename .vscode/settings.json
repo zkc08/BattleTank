@@ -1,0 +1,10 @@
+{
+	"files.exclude": {
+		"/Users/zkc08/gd/unreal project/BattleTank 4.25/.git": true,
+		"/Users/zkc08/gd/unreal project/BattleTank 4.25/.vscode": true,
+		"/Users/zkc08/gd/unreal project/BattleTank 4.25/Content": true,
+		"/Users/zkc08/gd/unreal project/BattleTank 4.25/DerivedDataCache": true,
+		"/Users/zkc08/gd/unreal project/BattleTank 4.25/Intermediate": true,
+		"/Users/zkc08/gd/unreal project/BattleTank 4.25/Saved": true
+	}
+}

@@ -1,0 +1,720 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "BattleTank Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"Mac",
+				"Debug",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTank Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"Mac",
+				"Debug",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTank Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTank Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"Mac",
+				"Debug",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTank Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"Mac",
+				"DebugGame",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTank Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"Mac",
+				"DebugGame",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTank Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTank Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"Mac",
+				"DebugGame",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTank Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"Mac",
+				"Development",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTank Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"Mac",
+				"Development",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTank Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTank Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"Mac",
+				"Development",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTank Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"Mac",
+				"Shipping",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTank Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"Mac",
+				"Shipping",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTank Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTank Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"Mac",
+				"Shipping",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTank Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"Mac",
+				"Test",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTank Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"Mac",
+				"Test",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTank Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTank Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"Mac",
+				"Test",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTank IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"IOS",
+				"Debug",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTank IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"IOS",
+				"Debug",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTank IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTank IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"IOS",
+				"Debug",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTank IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"IOS",
+				"DebugGame",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTank IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"IOS",
+				"DebugGame",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTank IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTank IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"IOS",
+				"DebugGame",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTank IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"IOS",
+				"Development",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTank IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"IOS",
+				"Development",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTank IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTank IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"IOS",
+				"Development",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTank IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"IOS",
+				"Shipping",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTank IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"IOS",
+				"Shipping",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTank IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTank IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"IOS",
+				"Shipping",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTank IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"IOS",
+				"Test",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTank IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"IOS",
+				"Test",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTank IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTank IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTank",
+				"IOS",
+				"Test",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTankEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTankEditor",
+				"Mac",
+				"Debug",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTankEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTankEditor",
+				"Mac",
+				"Debug",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTankEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTankEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTankEditor",
+				"Mac",
+				"Debug",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTankEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTankEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTankEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTankEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTankEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTankEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTankEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTankEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTankEditor",
+				"Mac",
+				"Development",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTankEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTankEditor",
+				"Mac",
+				"Development",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTankEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		},
+		{
+			"label": "BattleTankEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"BattleTankEditor",
+				"Mac",
+				"Development",
+				"/Users/zkc08/gd/unreal project/BattleTank 4.25/BattleTank.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.25"
+			}
+		}
+	]
+}
